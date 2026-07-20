@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Purchase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">BOOK STORE</h1>
+    <table border="1" >
+        <tr>
+            <th>S.NO.</th>
+            <th>Book Name</th>
+            <th>Price</th>
+            <th>Purchase Option</th>
+            <th>Quantity</th>
+            <th>value</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>C++</td>
+            <td>₹500</td>
+            <td><input type="checkbox" id="book1"></td>
+            <td>
+               <select id="qty1" style="display:none;">
+                   <option value="0">Select</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+               </select>
+            </td>
+            <td id="value1">0</td>         
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>C</td>
+            <td>₹600</td>
+            <td><input type="checkbox" id="book2"></td>
+            <td>
+               <select id="qty2" style="display:none;">
+                   <option value="0">Select</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+               </select>
+            </td>
+            <td id="value2">0</td>         
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Phython</td>
+            <td>₹750</td>
+            <td><input type="checkbox" id="book3"></td>
+            <td>
+               <select id="qty3" style="display:none;">
+                   <option value="0">Select</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+               </select>
+            </td>
+            <td id="value3">0</td>         
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Java</td>
+            <td>₹350</td>
+            <td><input type="checkbox" id="book4"></td>
+            <td>
+               <select id="qty4" style="display:none;">
+                   <option value="0">Select</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+               </select>
+            </td>
+            <td id="value4">0</td>         
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Html</td>
+            <td>₹400</td>
+            <td><input type="checkbox" id="book5"></td>
+            <td>
+               <select id="qty5" style="display:none;">
+                   <option value="0">Select</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+               </select>
+            </td>
+            <td id="value5">0</td>         
+        </tr>
+    </table>
+    <br>
+<center>
+    <button onclick="purchase()">Purchase</button>
+</center>
+<script src="script.js"></script>
+</body>
+</html>
